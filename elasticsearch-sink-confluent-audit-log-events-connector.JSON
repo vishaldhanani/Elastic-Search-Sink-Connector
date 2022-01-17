@@ -19,9 +19,9 @@
     "key.converter.schemas.enable": "false",
     "value.converter.schemas.enable": "false",
     "consumer.override.security.protocol": "SASL_SSL",
-	  "consumer.override.interceptor.classes": "io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor",
+    "consumer.override.interceptor.classes": "io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor",
     "consumer.override.confluent.monitoring.interceptor.bootstrap.servers": "http://127.0.0.1:9092",
-	  "consumer.override.confluent.monitoring.interceptor.sasl.jaas.config" : "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"localusername\" password=\"password\";",
+    "consumer.override.confluent.monitoring.interceptor.sasl.jaas.config" : "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"localusername\" password=\"password\";",
     "consumer.override.confluent.monitoring.interceptor.sasl.mechanism": "PLAIN",
     "consumer.override.confluent.monitoring.interceptor.security.protocol": "SASL_SSL"
   }
