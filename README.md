@@ -1,6 +1,7 @@
 # Elastic-Search-Sink-Connector
 Getting data from the Confluent Audit Log Cluster to Elastic Search using Elastic Search Sink Connector
 
+```
 {
   "name": "elasticsearch-sink-confluent-audit-log-events-connector",
   "config": {
@@ -29,3 +30,4 @@ Getting data from the Confluent Audit Log Cluster to Elastic Search using Elasti
     "consumer.override.confluent.monitoring.interceptor.security.protocol": "SASL_SSL"
   }
 }
+```
